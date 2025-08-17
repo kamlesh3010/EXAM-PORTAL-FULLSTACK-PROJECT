@@ -77,35 +77,35 @@ cd EXAM-PORTAL-FULLSTACK-PROJECT
 
 ## Screenshots
 
-### Homepage
+### About Page
 ![Homepage](Screenshots/Screenshot%20(253).png)
 
 ### Student Dashboard
 ![Student Dashboard](Screenshots/Screenshot%20(254).png)
 
-### Admin Panel
+### Exam Board
 ![Admin Panel](Screenshots/Screenshot%20(255).png)
 
-### Exam Creation
+### Result Card
 ![Exam Creation](Screenshots/Screenshot%20(256).png)
 
-### Result Page
+### Exam Schedule
 ![Result Page](Screenshots/Screenshot%20(257).png)
 
-### Timer-based Exam
+### Admin Exam Assignement
 ![Timer](Screenshots/Screenshot%20(258).png)
 
-### Exam List
+### University Wise-Exam List
 ![Exam List](Screenshots/Screenshot%20(259).png)
 
-### Student Dashboard (Detailed)
+### University Dashboard (Detailed)
 ![Student Dashboard](Screenshots/Screenshot%20(260).png)
 
 ### Performance Report
 ![Performance](Screenshots/Screenshot%20(261).png)
 
-### Proctoring Alert
+### Grant page
 ![Proctoring](Screenshots/Screenshot%20(262).png)
 
-### Extra Page
+### List Of Students Exam Page
 ![Extra](Screenshots/Screenshot%20(263).png)
