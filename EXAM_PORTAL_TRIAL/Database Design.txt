@@ -1,0 +1,87 @@
+Database Design 
+CREATE TABLE users (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(255),
+    role ENUM('ADMIN', 'UNIVERSITY', 'STUDENT', 'PROCTOR'),
+    university_name VARCHAR(100),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE exam (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255),
+    description TEXT,
+    total_questions INT,
+    duration_minutes INT,
+    start_time DATETIME,
+    end_time DATETIME,
+    created_by BIGINT,
+    FOREIGN KEY (created_by) REFERENCES users(id)
+);
+
+
+CREATE TABLE question (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    exam_id BIGINT,
+    question_text TEXT,
+    correct_option_id BIGINT,
+    FOREIGN KEY (exam_id) REFERENCES exam(id)
+);
+
+CREATE TABLE option (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    question_id BIGINT,
+    option_text VARCHAR(255),
+    FOREIGN KEY (question_id) REFERENCES question(id)
+);
+
+
+
+CREATE TABLE student_exam (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    student_id BIGINT,
+    exam_id BIGINT,
+    assigned_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    is_completed BOOLEAN DEFAULT FALSE,
+    FOREIGN KEY (student_id) REFERENCES users(id),
+    FOREIGN KEY (exam_id) REFERENCES exam(id)
+);
+
+
+CREATE TABLE submission (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    student_id BIGINT,
+    exam_id BIGINT,
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    total_score INT,
+    FOREIGN KEY (student_id) REFERENCES users(id),
+    FOREIGN KEY (exam_id) REFERENCES exam(id)
+);
+
+CREATE TABLE proctor_session (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    exam_id BIGINT,
+    proctor_id BIGINT,
+    start_time DATETIME,
+    end_time DATETIME,
+    session_notes TEXT,
+    FOREIGN KEY (exam_id) REFERENCES exam(id),
+    FOREIGN KEY (proctor_id) REFERENCES users(id)
+);
+
+
+OPtional
+CREATE TABLE violation_log (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    student_id BIGINT,
+    exam_id BIGINT,
+    timestamp TIMESTAMP,
+    violation_type VARCHAR(255),
+    note TEXT,
+    FOREIGN KEY (student_id) REFERENCES users(id),
+    FOREIGN KEY (exam_id) REFERENCES exam(id)
+);
+

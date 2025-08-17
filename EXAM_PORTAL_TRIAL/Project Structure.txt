@@ -1,0 +1,100 @@
+online-proctored-exam-system/
+│
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           └── exam/
+│       │               ├── controller/         # All REST Controllers
+│       │               │   ├── ExamController.java
+│       │               │   ├── UserController.java
+│       │               │   ├── QuestionController.java
+│       │               │   ├── SubmissionController.java
+│       │               │   └── ViolationLogController.java
+│       │               │
+│       │               ├── dto/                # Optional DTOs for request/response
+│       │               │   └── ExamDTO.java
+│       │               │
+│       │               ├── entity/             # All Entity classes
+│       │               │   ├── User.java
+│       │               │   ├── Exam.java
+│       │               │   ├── Question.java
+│       │               │   ├── ExamOption.java
+│       │               │   ├── StudentExam.java
+│       │               │   ├── Submission.java
+│       │               │   ├── ProctorSession.java
+│       │               │   ├── ViolationLog.java
+│       │               │   └── Role.java
+│       │               │
+│       │               ├── repository/         # All JPA Repositories
+│       │               │   ├── UserRepository.java
+│       │               │   ├── ExamRepository.java
+│       │               │   ├── QuestionRepository.java
+│       │               │   ├── OptionRepository.java
+│       │               │   ├── StudentExamRepository.java
+│       │               │   ├── SubmissionRepository.java
+│       │               │   ├── ProctorSessionRepository.java
+│       │               │   └── ViolationLogRepository.java
+│       │               │
+│       │               ├── service/            # All Service Classes
+│       │               │   ├── ExamService.java
+│       │               │   ├── UserService.java
+│       │               │   ├── QuestionService.java
+│       │               │   ├── SubmissionService.java
+│       │               │   └── ViolationLogService.java
+│       │               │
+│       │               └── ExamApplication.java  # Main Spring Boot App
+│       │
+│       └── resources/
+│           ├── application.properties           # DB config, server settings
+│           ├── data.sql                         # Sample test data (optional)
+│           └── schema.sql                       # SQL DDL scripts (optional)
+│
+└── pom.xml                                       # Maven dependencies
+
+
+
+Spring Web
+
+Spring Data JPA
+
+MySQL Driver
+
+Spring Boot DevTools (optional)
+
+Spring Security (optional, for login roles)
+
+Lombok (optional, for boilerplate removal)
+
+
+
+👨‍🎓 STUDENT
+View assigned exams.
+
+Attempt exams.
+
+View result/report card.
+
+Submit feedback (optional).
+
+🧑‍💼 ADMIN
+Create exams.
+
+Assign exams to students.
+
+View all student performance.
+
+Manage users (optional).
+
+Handle violations or flags.
+
+🎓 UNIVERSITY
+Add/manage faculty/admin.
+
+View aggregated analytics across exams.
+
+Create departments or course structure.
+
+Approve exam patterns or scheduling.
+

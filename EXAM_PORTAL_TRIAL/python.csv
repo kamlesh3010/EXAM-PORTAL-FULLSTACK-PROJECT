@@ -1,0 +1,11 @@
+question,option1,option2,option3,option4,correctAnswer
+What is the output of print(2 ** 3)?,6,8,9,5,8
+Which of the following is a Python data type?,tuple,array,listview,collection,tuple
+Which keyword is used to define a function in Python?,func,method,define,def,def
+Which operator is used for floor division in Python?,/,//,%,**,//
+What does the len() function return?,List,Boolean,Length,Size,Length
+Which method is used to add an item to a list?,insert(),append(),add(),extend(),append()
+What is the output of type(5.0)?,int,float,double,str,float
+Which of the following is immutable in Python?,list,set,dict,tuple,tuple
+How do you start a comment in Python?,//,#,<!-->,-->,#
+Which keyword is used for loop in Python?,forEach,repeat,for,loop,for
