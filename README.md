@@ -92,22 +92,20 @@ cd EXAM-PORTAL-FULLSTACK-PROJECT
 ### Result Page
 ![Result Page](Screenshots/Screenshot%20(257).png)
 
+### Timer-based Exam
+![Timer](Screenshots/Screenshot%20(258).png)
 
-### ​​ Timer-based Exam
-![Timer](screenshots/Screenshot%20(258).png)
+### Exam List
+![Exam List](Screenshots/Screenshot%20(259).png)
 
-### ​ Exam List
-![Exam List](screenshots/Screenshot%20(259).png)
+### Student Dashboard (Detailed)
+![Student Dashboard](Screenshots/Screenshot%20(260).png)
 
-### ​ Student Dashboard
-![Student Dashboard](screenshots/Screenshot%20(260).png)
+### Performance Report
+![Performance](Screenshots/Screenshot%20(261).png)
 
-### ​ Performance Report
-![Performance](screenshots/Screenshot%20(261).png)
+### Proctoring Alert
+![Proctoring](Screenshots/Screenshot%20(262).png)
 
-### ​​ Proctoring Alert
-![Proctoring](screenshots/Screenshot%20(262).png)
-
-### ​​ Extra Page
-![Extra](screenshots/Screenshot%20(263).png)
-
+### Extra Page
+![Extra](Screenshots/Screenshot%20(263).png)
