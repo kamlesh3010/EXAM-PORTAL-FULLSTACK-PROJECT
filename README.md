@@ -73,6 +73,15 @@ This project is built using **Spring Boot (Java)** for the backend, **ReactJS** 
 ### Backend (Spring Boot)
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/online-exam-conductor.git
-   cd online-exam-conductor/backend
+ spring.datasource.url=jdbc:mysql://localhost:3306/examdb
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update
+
+
+Run the Spring Boot app:
+
+mvn spring-boot:run
+
+
 
