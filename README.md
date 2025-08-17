@@ -73,20 +73,25 @@ cd EXAM-PORTAL-FULLSTACK-PROJECT
 
 ## ​ Screenshots
 
-### ​ Login Page
-![Login](screenshots/Screenshot%20(253).png)
+# Exam Portal – Fullstack Project
 
-### ​​​ Admin Dashboard
-![Admin Dashboard](screenshots/Screenshot%20(254).png)
+## Screenshots
 
-### ​ Student Exam Screen
-![Student Exam](screenshots/Screenshot%20(255).png)
+### Homepage
+![Homepage](Screenshots/Screenshot%20(253).png)
 
-### ​ Results Page
-![Results](screenshots/Screenshot%20(256).png)
+### Student Dashboard
+![Student Dashboard](Screenshots/Screenshot%20(254).png)
 
-### ​ Question Management
-![Question Management](screenshots/Screenshot%20(257).png)
+### Admin Panel
+![Admin Panel](Screenshots/Screenshot%20(255).png)
+
+### Exam Creation
+![Exam Creation](Screenshots/Screenshot%20(256).png)
+
+### Result Page
+![Result Page](Screenshots/Screenshot%20(257).png)
+
 
 ### ​​ Timer-based Exam
 ![Timer](screenshots/Screenshot%20(258).png)
