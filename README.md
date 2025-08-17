@@ -1,8 +1,3 @@
-# EXAM-PORTAL-FULLSTACK-PROJECT
-Online Exam Conductor is a web-based application designed to simplify the process of conducting and managing exams digitally.
-
-
-
 # 🎓 Online Exam Conductor
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -11,9 +6,7 @@ Online Exam Conductor is a web-based application designed to simplify the proces
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-
-
-# 🎓 Online Exam Conductor
+---
 
 ## 📌 Project Overview
 **Online Exam Conductor** is a full-stack web application that simplifies the process of conducting exams digitally.  
@@ -73,15 +66,43 @@ This project is built using **Spring Boot (Java)** for the backend, **ReactJS** 
 ### Backend (Spring Boot)
 1. Clone the repository:
    ```bash
- spring.datasource.url=jdbc:mysql://localhost:3306/examdb
-spring.datasource.username=root
-spring.datasource.password=root
-spring.jpa.hibernate.ddl-auto=update
+git clone https://github.com/kamlesh3010/EXAM-PORTAL-FULLSTACK-PROJECT.git
+cd EXAM-PORTAL-FULLSTACK-PROJECT
 
 
-Run the Spring Boot app:
 
-mvn spring-boot:run
+## ​ Screenshots
 
+### ​ Login Page
+![Login](screenshots/Screenshot%20(253).png)
 
+### ​​​ Admin Dashboard
+![Admin Dashboard](screenshots/Screenshot%20(254).png)
+
+### ​ Student Exam Screen
+![Student Exam](screenshots/Screenshot%20(255).png)
+
+### ​ Results Page
+![Results](screenshots/Screenshot%20(256).png)
+
+### ​ Question Management
+![Question Management](screenshots/Screenshot%20(257).png)
+
+### ​​ Timer-based Exam
+![Timer](screenshots/Screenshot%20(258).png)
+
+### ​ Exam List
+![Exam List](screenshots/Screenshot%20(259).png)
+
+### ​ Student Dashboard
+![Student Dashboard](screenshots/Screenshot%20(260).png)
+
+### ​ Performance Report
+![Performance](screenshots/Screenshot%20(261).png)
+
+### ​​ Proctoring Alert
+![Proctoring](screenshots/Screenshot%20(262).png)
+
+### ​​ Extra Page
+![Extra](screenshots/Screenshot%20(263).png)
 
